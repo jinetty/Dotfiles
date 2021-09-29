@@ -1,0 +1,15 @@
+include-file=$HOME/.config/polybar/modules/cpu
+include-file=$HOME/.config/polybar/modules/mem
+include-file=$HOME/.config/polybar/modules/time
+include-file=$HOME/.config/polybar/modules/wlan
+include-file=$HOME/.config/polybar/modules/bandwidth
+include-file=$HOME/.config/polybar/modules/bspwm
+include-file=$HOME/.config/polybar/modules/date
+include-file=$HOME/.config/polybar/modules/pulseaudio
+include-file=$HOME/.config/polybar/modules/weather
+include-file=$HOME/.config/polybar/modules/xwindow
+include-file=$HOME/.config/polybar/modules/battery
+include-file=$HOME/.config/polybar/modules/backlight
+include-file=$HOME/.config/polybar/modules/filesystem
+include-file=$HOME/.config/polybar/modules/seperator
+include-file=$HOME/.config/polybar/modules/workspaces

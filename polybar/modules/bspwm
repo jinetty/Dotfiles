@@ -1,0 +1,39 @@
+[module/bspwm]
+type = internal/bspwm
+pin-workspaces = true
+inline-mode = true
+enable-click = true
+enable-scroll = true
+reverse-scroll = false
+format = <label-state>
+
+ws-icon-0 = 1;%{F#FF9500}󰈹
+ws-icon-1 = 2;%{F#58AAF2}󰙯
+ws-icon-2 = 3;%{F#4BB1A7}󰞷
+ws-icon-3 = 4;%{F#4BB1A7}󰊗
+ws-icon-4 = 5;%{F#1DB954}󰓇
+ws-icon-5 = 6;%{F#81A1C1}󰋫
+ws-icon-6 = 7;%{F#ff52a0}󰗃
+ws-icon-7 = 8;%{F#B888E2}󰝰
+ws-icon-8 = 9;%{F#C7C18B}󰒓
+ws-icon-9 = 0;%{F#FFF}󰇮
+
+label-separator = ""
+label-separator-background = ${colors.content-background}
+label-focused = %icon%
+label-focused-foreground = ${colors.foreground}
+label-focused-underline =  ${colors.light-blue}
+label-focused-padding = 1
+label-focused-background = ${colors.content-background}
+label-occupied = %icon%
+label-occupied-foreground = ${colors.light-gray}
+label-occupied-background = ${colors.content-background}
+label-occupied-padding = 1
+label-empty = %icon%
+label-empty-foreground =   ${colors.foreground}
+label-empty-padding = 1
+label-empty-background = ${colors.content-background}
+label-urgent = %icon% %name%
+label-urgent-foreground = ${colors.cyan}
+label-urgent-background = ${colors.content-background}
+label-urgent-padding = 1

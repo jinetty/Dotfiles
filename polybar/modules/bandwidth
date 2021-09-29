@@ -1,0 +1,5 @@
+[module/bandwidth]
+type= custom/script
+exec= $HOME/.config/polybar/scripts/bandwidth
+interval=1
+format-padding= 1

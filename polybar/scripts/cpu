@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+usage(){
+	sar -u 1 1 | awk 'FNR == 5 { printf "%04.1f<span color=\"#50fa7b\"><b>%</b></span>\n", (100 - $8) } '
+}
+
+temperature(){
+	sensors | awk 'FNR==23{ print $0 }' | awk '{ printf "%04.1f<span color=\"#50fa7b\"><b>ªC</b></span>\n", $4 }'
+}
+
+usage2(){
+	sar -u 1 1 | awk 'FNR == 5 { printf (100 - $8) } '
+}
+
+temperature2(){
+	sensors | awk 'FNR==19{print $0}' | awk '{print $4}' | cut -c 2-
+}
+echo -e "$(usage2) $(temperature2)"

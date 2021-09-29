@@ -1,0 +1,8 @@
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+format = <label>
+format-prefix = " "
+label = %percentage:2%%
+format-prefix-foreground = ${colors.yellow}
+format-padding = 1

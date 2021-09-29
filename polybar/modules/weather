@@ -1,0 +1,6 @@
+[module/weather]
+type= custom/script
+exec= $HOME/.config/polybar/scripts/openweather
+format-prefix="%{F#00AAFF}"
+interval=60
+format-padding = 1

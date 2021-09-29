@@ -1,0 +1,4 @@
+[module/seperator]
+type=custom/text
+content="| "
+color=#FFF

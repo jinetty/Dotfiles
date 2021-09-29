@@ -1,0 +1,9 @@
+[module/mem]
+type = custom/script
+exec= free -m | awk 'FNR==2{ print $0 }' | awk '{ print $3}'
+format = <label>
+format-prefix = " "
+label = "%output%MB"
+format-prefix-foreground = ${colors.orange}
+format-padding = 1
+

@@ -1,0 +1,6 @@
+[module/date]
+type= internal/date
+date= %D %A
+interval=300
+format-prefix="󰃭 " 
+format-padding= 1

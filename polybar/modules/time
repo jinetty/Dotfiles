@@ -1,0 +1,10 @@
+[module/time]
+type = internal/date
+interval = 1
+format = <label>
+#format-prefix= 
+#format-background = ${colors.content-background}
+date = 󰥔 %H:%M:%S
+label = %date%%time%
+format-padding = 1
+

@@ -1,0 +1,7 @@
+[module/cpu]
+type= custom/script
+exec= $HOME/.config/polybar/scripts/cpu
+interval=1
+format-padding= 1
+format-prefix= " "
+
