@@ -5,7 +5,7 @@ Aborting."; exit 1; }
 command -v wget >/dev/null 2>&1 || { echo >&2 "Program 'wget' required but is not installed.  
 Aborting."; exit 1; }
 
-APIKEY="711c33940a8974e9725e508935ae50ba"
+APIKEY="API KEY"
 #ZIPCODE="1234"
 CITY_ID="745042"
 URL="http://api.openweathermap.org/data/2.5/weather?id=${CITY_ID}&units=metric&APPID=${APIKEY}"
